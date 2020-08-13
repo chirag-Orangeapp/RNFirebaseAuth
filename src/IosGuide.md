@@ -50,9 +50,9 @@ This is guide you to Xcode setup while enabling React Native Firebase Authentica
 
 1. From Signing & Capabilities to add capability.
     - click on + button and add `Sign In with Apple`.
-    - After add apple ID Target <YOURAPPName> in Team in `Signing` info.
-    - Also add apple ID Target <YOURAPP_Tests> in Team in `Signing` info.
+    - After add apple ID in `Target` section of <YOURAPP_Name> in Team in `Signing` info.
+    - Also add apple ID `Target` section of <YOURAPP_Name_Tests> in Team in `Signing` info.
 
-## Resolve conflict @react-native-firebase/auth plugin
+## Resolve conflict of @react-native-firebase/auth plugin
 
 1. For ios setup in your app follow all steps of firebase while adding your ios app in firebase.

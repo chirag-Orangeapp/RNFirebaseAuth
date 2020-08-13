@@ -71,9 +71,9 @@ This project was built using [React Native Firebase](https://rnfirebase.io/).
 
 ## Setup Guides
 
-1. For setup on ios follow [ios guide](src/IosGuide.md)
+1. For setup on ios follow [Ios Guide](src/IosGuide.md)
 
-2. For setup on android follow [android guide](src/AndroidGuide.md)
+2. For setup on android follow [Android Guide](src/AndroidGuide.md)
 
 ## To do
 
