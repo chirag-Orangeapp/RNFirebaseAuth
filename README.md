@@ -33,10 +33,13 @@ This project was built using [React Native Firebase](https://rnfirebase.io/).
   storageBucket: '',
   messagingSenderId: ''
 };
+```
+
 
 ## Email and Password authentication with firebase
 
 1. Enable email and password authentication on Firebase.
+
 
 ## Facebook authentication with firebase
 
@@ -46,6 +49,7 @@ This project was built using [React Native Firebase](https://rnfirebase.io/).
 
 3. Enable facebook authentication and set facebook app id and secrate key on Firebase.
 
+
 ## Google authentication with firebase
 
 1. Create Android and ios platform from firebase project setting. 
@@ -54,13 +58,16 @@ This project was built using [React Native Firebase](https://rnfirebase.io/).
 
 3. Enable google authentication on Firebase.
 
+
 ## Phone number authentication with firebase
 
 1. Enable phone number authentication on Firebase.
 
+
 ## Apple authentication with firebase
 
 1. Enable phone number authentication on Firebase.
+
 
 ## Setup Guides
 
