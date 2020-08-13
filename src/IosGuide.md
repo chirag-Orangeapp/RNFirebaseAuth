@@ -7,13 +7,13 @@ This is guide you to Xcode setup while enabling React Native Firebase Authentica
 
 ## Email and Password authentication with firebase
 
-1. Enable Email/Password Auth on Firebase. 
+1. Enable Email/Password Auth on [Firebase](https://console.firebase.google.com/). 
     - No requirements of any Xcode setup.
 
 ## Facebook authentication with firebase
 
-1. Follow the step of Facebook developer console.
-    - Perfrom step 2,3,4 of setup guide of Facebook
+1. Follow the steps of [Facebook developer console](https://developers.facebook.com/apps/).
+    - Perform steps 2,3,4 of setup guide of [Facebook](https://developers.facebook.com/apps/).
 
 2. In Xcode add follwoing code at AppDelegate.m file
     ```
@@ -24,7 +24,7 @@ This is guide you to Xcode setup while enabling React Native Firebase Authentica
 
 ## Google authentication with firebase
 
-1. Follow the setup guide of firebase for firebase setup.
+1. Follow the setup guide of [Firebase](https://console.firebase.google.com/) for firebase setup.
 
 2. Add URL schemes in Info.plist file in Xcode
     ```
@@ -43,15 +43,15 @@ This is guide you to Xcode setup while enabling React Native Firebase Authentica
 
 ## Phone number authentication with firebase
 
-1. Enable Phone Auth on Firebase. 
+1. Enable Phone Auth on [Firebase](https://console.firebase.google.com/). 
     - No requirements of any Xcode setup if you had already added URL schmes otherwise follow the step 2 of google auth.
 
 ## Apple authentication with firebase
 
-1. From Signing & Capabilities to add capability.
+1. From Signing & Capabilities to add capability in Xcode.
     - click on + button and add `Sign In with Apple`.
-    - After add apple ID in `Target` section of <YOURAPP_Name> in Team in `Signing` info.
-    - Also add apple ID `Target` section of <YOURAPP_Name_Tests> in Team in `Signing` info.
+    - After in `Target` section which name is <YOURAPP_Name>, in that `Team` -> `Signing` info, add apple ID.
+    - Also in `Target` section which name is <YOURAPP_Name_Tests>, in that `Team` -> `Signing` info, add apple ID.
 
 ## Resolve conflict of @react-native-firebase/auth plugin
 
